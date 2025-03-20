@@ -1,5 +1,5 @@
         <!-- ========== App Menu ========== -->
-        <div class="app-menu navbar-menu  bg-dark text-light">
+        <div class="app-menu navbar-menu  ">
             <!-- LOGO -->
             <div class=" navbar-brand-box">
                 <a href="index.html" class="logo logo-dark">

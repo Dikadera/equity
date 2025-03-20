@@ -7,73 +7,52 @@
         <!--  Collect the nav links, forms, and other content for toggling  -->
         <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item has-dropdown active"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>Home</span></a>
+                <li class="nav-item has-dropdown active"><a class="dropdown-toggle" href="/" data-toggle="dropdown"><span>Home</span></a>
+
+                </li>
+                <li class="nav-item has-dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>Company</span></a>
                     <ul class="dropdown-menu">
-                        <li class="nav-item current"><a href="index.html"><span>Home main</span></a></li>
-                        <li class="nav-item"><a href="home-modern.html"><span>home modern</span></a></li>
-                        <li class="nav-item"><a href="home-classic.html"><span>home classic</span></a></li>
+                        <li class="nav-item"><a href="/aboutUs"><span>About us</span></a></li>
+                        <li class="nav-item"><a href="/coreValues"><span>Core values</span></a></li>
+                        <li class="nav-item"><a href="/leadteam"><span>Leadership team</span></a></li>
+
                     </ul>
                 </li>
-                <li class="nav-item has-dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>company</span></a>
-                    <ul class="dropdown-menu">
-                        <li class="nav-item"><a href="page-about.html"><span>about us</span></a></li>
-                        <li class="nav-item"><a href="page-core.html"><span>core values</span></a></li>
-                        <li class="nav-item"><a href="page-team.html"><span>leadership team</span></a></li>
-                        <li class="nav-item"><a href="page-locations.html"><span>global locations</span></a></li>
-                        <li class="nav-item"><a href="page-gallery.html"><span>our gallery</span></a></li>
-                        <li class="nav-item"><a href="page-awards.html"><span>awards &amp; recognition</span></a></li>
-                        <li class="nav-item"><a href="page-careers.html"><span>careers</span></a></li>
-                    </ul>
-                </li>
-                <li class="nav-item has-dropdown mega-dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>services</span></a>
+                <li class="nav-item has-dropdown mega-dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>Services</span></a>
                     <ul class="dropdown-menu">
                         <li>
                             <div class="row">
                                 <div class="col col-md-6">
                                     <h5 class="menu-head">transport services</h5>
                                     <ul>
-                                        <li class="nav-item"><a href="service-warehouse.html"><span>warehousing</span></a></li>
-                                        <li class="nav-item"><a href="service-air-freight.html"><span>air freight</span></a></li>
-                                        <li class="nav-item"><a href="service-ocean-freight.html"><span>ocean freight</span></a></li>
-                                        <li class="nav-item"><a href="service-road-freight.html"><span>road freight</span></a></li>
-                                        <li class="nav-item"><a href="service-supply.html"><span>supply chain</span></a></li>
-                                        <li class="nav-item"><a href="service-packaging.html"><span>packaging</span></a></li>
+                                        <li class="nav-item"><a href="/warehouse"><span>warehousing</span></a></li>
+                                        <li class="nav-item"><a href="/air"><span>air freight</span></a></li>
+                                        <li class="nav-item"><a href="/ocean"><span>ocean freight</span></a></li>
+                                        <li class="nav-item"><a href="/road"><span>road freight</span></a></li>
+                                        <li class="nav-item"><a href="/supply"><span>supply chain</span></a></li>
+                                        <li class="nav-item"><a href="/packaging"><span>packaging</span></a></li>
                                     </ul>
                                 </div>
-                                <div class="col col-md-6">
-                                    <h5 class="menu-head">industry solutions</h5>
-                                    <ul>
-                                        <li class="nav-item"><a href="industry-retail.html"><span>retail &amp; consumer</span></a></li>
-                                        <li class="nav-item"><a href="industry-science.html"><span>sciences &amp; healthcare</span></a></li>
-                                        <li class="nav-item"><a href="industry-chemical.html"><span>industrial &amp; chemical</span></a></li>
-                                        <li class="nav-item"><a href="industry-power.html"><span>power generation</span></a></li>
-                                        <li class="nav-item"><a href="industry-food.html"><span>food &amp; beverage</span></a></li>
-                                        <li class="nav-item"><a href="industry-oil.html"><span>oil &amp; gas</span></a></li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </li>
                     </ul>
                 </li>
-                <li class="nav-item has-dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>news &amp; media</span></a>
+                <li class="nav-item has-dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>News &amp; Media</span></a>
                     <ul class="dropdown-menu">
-                        <li class="nav-item"><a href="blog-grid-fullwidth.html"><span>our blog</span></a></li>
-                        <li class="nav-item"><a href="blog-single-sidebar.html"><span>single blog post</span></a></li>
-                        <li class="nav-item"><a href="page-our-services.html"><span>our services</span></a></li>
-                        <li class="nav-item"><a href="case-studies-grid.html"><span>case studies grid</span></a></li>
-                        <li class="nav-item"><a href="case-studies-standard.html"><span>case studies standard</span></a></li>
-                        <li class="nav-item"><a href="case-study-single.html"><span>single case study</span></a></li>
+                        <li class="nav-item"><a href="/blog"><span>our blog</span></a></li>
+                        <li class="nav-item"><a href="/blogcase"><span>case studies standard</span></a></li>
                     </ul>
                 </li>
-                <li class="nav-item has-dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>features</span></a>
+                <li class="nav-item has-dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>Features</span></a>
                     <ul class="dropdown-menu">
-                        <li class="nav-item"><a href=""><span>login</span></a></li>
-                        <li class="nav-item"><a href="/create"><span>sign up</span></a></li>
-                        <li class="nav-item"><a href="find-location.html"><span>find a location</span></a></li>
-                        <li class="nav-item"><a href="faqs.html"><span>help &amp; fAQs</span></a></li>
+                        <!-- <li class="nav-item"><a href=""><span>login</span></a></li>
+                        <li class="nav-item"><a href="/create"><span>sign up</span></a></li> -->
+                        <li class="nav-item"><a href="/location"><span>find a location</span></a></li>
+                        <li class="nav-item"><a href="/faq"><span>help &amp; fAQs</span></a></li>
                     </ul>
                 </li>
-                <li class="nav-item"><a href="contact.html"><span>contact</span></a></li>
+                <li class="nav-item"><a href="/contact"><span>contact</span></a></li>
             </ul>
             <div class="module-container">
                 <!--  Start Module Search  -->
@@ -105,10 +84,54 @@
                 <div class="module module-language">
                     <div class="selected"><span>en </span><i class="fas fa-chevron-down"></i></div>
                     <div class="lang-list">
-                        <ul>
+                        <!-- <ul>
                             <li> <a href="javascript:void(0)">english</a></li>
                             <li> <a href="javascript:void(0)">arabic</a></li>
-                        </ul>
+                        </ul> -->
+                        <div id="google_translate_element" style="margin-bottom: 20px;  border-radius: 10px;"></div>
+
+                        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                        <style>
+                            /* Container for Google Translate Dropdown */
+                            #google_translate_element {
+                                margin-bottom: 20px;
+                            }
+
+                            /* Style the Select Dropdown */
+                            #google_translate_element select {
+                                padding: 10px;
+                                font-size: 16px;
+                                border-radius: 4px;
+                                border: 1px solid #ccc;
+                                background-color: #ffffff;
+                                /* White background for visibility */
+                                cursor: pointer;
+                                width: 100%;
+                                /* Full width for dropdown */
+                            }
+
+                            #google_translate_element select:focus {
+                                outline: none;
+                                /* Remove focus outline */
+                                border-color: #66afe9;
+                                /* Change border color on focus */
+                            }
+
+                            /* Optional: Apply a transition effect */
+                            #google_translate_element select {
+                                transition: border-color 0.3s ease;
+                            }
+                        </style>
+                        <script type="text/javascript">
+                            function googleTranslateElementInit() {
+                                new google.translate.TranslateElement({
+                                    pageLanguage: 'en', // Default page language
+                                    includedLanguages: 'es,ru,fr,de,it,zh,ko,th', // Include desired languages
+                                    layout: google.translate.TranslateElement.InlineLayout.SIMPLE // Simple dropdown layout
+                                }, 'google_translate_element');
+                            }
+                        </script>
+
                     </div>
                 </div>
             </div>

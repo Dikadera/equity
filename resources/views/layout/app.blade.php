@@ -19,6 +19,7 @@
     -->
     <link href="assets/css/vendor.min.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
 
 <body>
@@ -37,17 +38,22 @@
         </div>
     </div>
     <!-- Document Wrapper-->
-    @include ('snippets.header')
+    <div class="wrapper clearfix" id="wrapperParallax">
+        @include ('snippets.header')
 
-    @yield ('content')
+        @yield ('content')
 
-    @include ('snippets.footer')
+        @include ('snippets.footer')
 
-    <!--  Footer Scripts==
+        <!--  Footer Scripts==
     -->
+    </div>
     <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
     <script src="assets/js/vendor.min.js"></script>
     <script src="assets/js/functions.js"></script>
+
+
+    <!-- <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
 </body>
 
 <!-- Mirrored from demo.zytheme.com/equita/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 30 Jun 2024 15:17:17 GMT -->

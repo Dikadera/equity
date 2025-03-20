@@ -54,6 +54,7 @@
 
                                         <tr>
                                             <th scope="col">TrackingID</th>
+                                            <th scope="col">Package Image</th>
                                             <th scope="col">Senders Name</th>
                                             <th scope="col">Receivers Name </th>
                                             <th scope="col">Package Origin</th>
@@ -61,6 +62,10 @@
                                             <th scope="col">Destination </th>
                                             <th scope="col">Current Location</th>
                                             <th scope="col">Shipping Status</th>
+                                            <th scope="col">Start Date time </th>
+                                            <th scope="col">Updated Date time </th>
+                                            <th scope="col">Shipment Mode </th>
+                                            <th scope="col">Weight </th>
                                             <th scope="col">Shipping Date</th>
                                             <th scope="col">Arrival Date</th>
                                             <th scope="col">Created At</th>
@@ -75,6 +80,10 @@
                                         <tr>
 
                                             <td>{{$shipment->trackingID}}</td>
+                                            <td>
+                                                <img src="/productFolder/{{$shipment->parcelimage}}" alt="Package Image" style="max-width: 100px; max-height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+                                            </td>
+
                                             <td>{{$shipment->sendersName}}</td>
                                             <td>{{$shipment->receiversName}}</td>
                                             <td>{{$shipment->from}}</td>
@@ -82,6 +91,10 @@
                                             <td>{{$shipment->destination}}</td>
                                             <td>{{$shipment->currentLocation}}</td>
                                             <td>{{$shipment->shippingStatus}}</td>
+                                            <td>{{$shipment->startDatetime}}</td>
+                                            <td>{{$shipment->updatedDatetime}}</td>
+                                            <td>{{$shipment->shipmentMode}}</td>
+                                            <td>{{$shipment->weight}}</td>
                                             <td>{{$shipment->shippingDate}}</td>
                                             <td>{{$shipment->arrivalDate}}</td>
                                             <td>{{\Carbon\Carbon::parse($shipment->created_at)->format('d M, Y h:i A')}}</td>

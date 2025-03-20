@@ -18,6 +18,23 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12 col-lg-7">
+                                <style>
+                                    .slide-content {
+                                        display: block;
+                                        /* Default display */
+                                    }
+
+                                    /* Media query to hide on phone and tablet views */
+                                    @media (max-width: 768px) {
+
+                                        /* Adjust as necessary for your tablet breakpoint */
+                                        .slide-desc {
+                                            display: none !important;
+
+                                            /* Hide on screens smaller than 768px */
+                                        }
+                                    }
+                                </style>
                                 <div class="slide-content">
                                     <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
                                     <h1 class="slide-headline">full sustainable<br />cargo solutions!</h1>
@@ -303,7 +320,7 @@
                                                 </div>
                                             </div>
                                         </form>
-                                        <form class="contactForm track-form mb-0" method="post" action="https://demo.zytheme.com/equita/assets/php/contact.php">
+                                        <!-- <form class="contactForm track-form mb-0" action="/search" method="get">
                                             <h5 class="card-heading">personal data</h5>
                                             <div class="row">
                                                 <div class="col-12">
@@ -345,7 +362,26 @@
                                                     <input class="btn btn--secondary btn--block" type="submit" value="Track &amp; Trace" />
                                                 </div>
                                             </div>
-                                        </form>
+                                        </form> -->
+                                        <div class="contactForm track-form mb-0">
+                                            <a class="btn btn--white" href="/trackingPage" style="display: block; margin: 0 auto;"><i class="icon-arrow-right"></i>Go to Tracking Page</a>
+                                        </div>
+                                        <div class="blog-entry">
+                                            <div class="entry-img" style="width: 300px; height: 300px; overflow: hidden; display: flex; align-items: center; justify-content: center;">
+                                                <a href="blog-single.html">
+                                                    <img src="assets/images/pexels.jpg" alt="Importers achieve cost savings through the First Sale rule!" style="width: 100%; height: auto; max-height: 100%;" />
+                                                </a>
+                                            </div>
+                                            <!-- End .entry-img-->
+                                            <!-- End .entry-date-->
+                                            <div class="entry-content">
+                                                <div class="contactForm track-form mb-0">
+                                                    <a class="btn btn--white" href="/trackingPage" style="display: block; margin: 0 auto;"><i class="icon-arrow-right"></i>Go to Tracking Page</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
                                     </div>
                                     <div class="col-12 col-lg-4">
                                         <div class="apply-card widget widget-reservation"><img src="assets/images/contact/1.jpg" alt="Background Image" />
@@ -871,4 +907,26 @@
       -->
 
 </div>
+<a href="https://wa.me/+60146544724" class="whatsapp-button" target="_blank">
+    <img src="assets/images/whatsapp.png" alt="WhatsApp" />
+</a>
+
+<style>
+    
+
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-button img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+</style>
+
 @endsection

@@ -27,6 +27,50 @@ Route::get('/create', function () {
 Route::get('/trackingPage', function () {
     return view('trackingPage');
 });
+Route::get('/aboutUs', function () {
+    return view('aboutUs');
+});
+Route::get('/coreValues', function () {
+    return view('coreValues');
+});
+Route::get('/leadteam', function () {
+    return view('leadteam');
+});
+Route::get('/warehouse', function () {
+    return view('warehouse');
+});
+Route::get('/air', function () {
+    return view('air');
+});
+Route::get('/ocean', function () {
+    return view('ocean');
+});
+Route::get('/road', function () {
+    return view('road');
+});
+Route::get('/supply', function () {
+    return view('supply');
+});
+Route::get('/packaging', function () {
+    return view('packaging');
+});
+Route::get('/blog', function () {
+    return view('blog');
+});
+Route::get('/blogcase', function () {
+    return view('blogcase');
+});
+Route::get('/faq', function () {
+    return view('faq');
+});
+Route::get('/location', function () {
+    return view('location');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
 //store user
 Route::post('store', [UserController::class, 'store'])->name('store_user');
 

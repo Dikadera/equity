@@ -1,4 +1,4 @@
-<div class="top-tagbar  bg-dark text-light">
+<div class="top-tagbar  ">
     <div class=" container-fluid">
         <div class="row justify-content-between align-items-center">
             <div class="col-md-6 col-9">
@@ -20,7 +20,7 @@
     </div>
 </div>
 
-<header id="page-topbar" class=" bg-dark text-light">
+<header id="page-topbar">
     <div class="layout-width">
         <div class="navbar-header">
             <div class="d-flex">

@@ -27,7 +27,10 @@ class AdminController extends Controller
             $validator = Validator::make($request->all(), [
                 'trackingID' => 'required|string|min:3',
                 'sendersName' => 'required|string|max:255',
+                'sendersPhone' => 'required|string|max:255',
+                'sendersEmail' => 'required|string|max:255',
                 'receiversName' => 'required|string|min:2',
+                'receiversPhone' => 'required|string|min:2',
                 'from' => 'required|string|min:2',
                 'email' => 'required|email|min:2',
                 'destination' => 'required|string|min:2',
@@ -35,6 +38,11 @@ class AdminController extends Controller
                 'shippingStatus' => 'required|string|min:1',
                 'shippingDate' => 'required|string|min:1',
                 'arrivalDate' => 'required|string|min:1',
+                'parcelimage' => ['nullable', 'file', 'max:10000'],
+                'startDatetime' => 'required|date', // New field: optional date
+                'updatedDatetime' => 'required|date', // New field: optional date
+                'shipmentMode' => 'required|string|max:255', // New field: optional string with max length
+                'weight' => 'required|string', // New field: optional numeric
 
             ]);
 
@@ -45,7 +53,10 @@ class AdminController extends Controller
             $tracking = new Tracker();
             $tracking->trackingID = $request->trackingID;
             $tracking->sendersName = $request->sendersName;
+            $tracking->sendersPhone = $request->sendersPhone;
+            $tracking->sendersEmail = $request->sendersEmail;
             $tracking->receiversName = $request->receiversName;
+            $tracking->receiversPhone = $request->receiversPhone;
             $tracking->from = $request->from;
             $tracking->email = $request->email;
             $tracking->destination = $request->destination;
@@ -53,6 +64,19 @@ class AdminController extends Controller
             $tracking->shippingStatus = $request->shippingStatus;
             $tracking->shippingDate = $request->shippingDate;
             $tracking->arrivalDate = $request->arrivalDate;
+            $tracking->parcelimage = $request->parcelimage; // Can be null
+            $tracking->startDatetime = $request->startDatetime; // Can be null
+            $tracking->updatedDatetime = $request->updatedDatetime; // Can be null
+            $tracking->shipmentMode = $request->shipmentMode; // Can be null
+            $tracking->weight = $request->weight; // Can be null
+
+
+            if ($request->hasFile('parcelimage')) {
+                $image = $request->file('parcelimage');
+                $parcelimage = time() . '.' . $image->getClientOriginalExtension();
+                $image->move(public_path('productFolder'), $parcelimage);
+                $tracking->parcelimage = $parcelimage;
+            }
 
             $save = $tracking->save();
 

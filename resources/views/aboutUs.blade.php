@@ -16,7 +16,7 @@
                     </div>
                     <div class="clearfix"></div>
                     <ol class="breadcrumb justify-content-lg-start">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="/home">Home</a></li>
                         <li class="breadcrumb-item"><a href="#">company</a></li>
                         <li class="breadcrumb-item active" aria-current="page">About US</li>
                     </ol>

@@ -36,11 +36,27 @@
                                     }
                                 </style>
                                 <div class="slide-content">
-                                    <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
-                                    <h1 class="slide-headline">full sustainable<br />cargo solutions!</h1>
-                                    <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation worldwide.</p>
-                                    <div class="slide-buttons"><a class="btn btn--primary" href="javascript:void(0)">more about us</a><a class="btn btn--white" href="javascript:void(0)">our services</a></div>
-                                </div>
+    <p class="slide-subheadline">Flexible, Improved And Accelerated Solutions</p>
+    <h1 class="slide-headline">Full Sustainable<br />Cargo Solutions!</h1>
+    <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation worldwide.</p>
+    <div class="slide-buttons">
+        <a class="btn btn--primary" id="moreaboutus" href="">more about us</a>
+        <a class="btn btn--white btn-services" href="">our services</a>
+        <!-- <a class="btn btn--white btn-track" href="/trackingPage" style="display: none;">track</a> -->
+        <a class="btn btn--primary btn-track" href="/trackingPage" style="display: none;">Track</a>
+    </div>
+</div>
+
+<style>
+    @media (max-width: 768px) { /* Adjust this width as needed */
+        .btn-services, #moreaboutus {
+            display: none; /* Hide "our services" on mobile */
+        }
+        .btn-track {
+            display: inline-block !important; /* Show "track" on mobile */
+        }
+    }
+</style>
                                 <!-- End .slide-content -->
                             </div>
                         </div>
@@ -58,7 +74,10 @@
                                     <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
                                     <h2 class="slide-headline">Air Freight That<br />Saves Your Time!</h2>
                                     <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation worldwide.</p>
-                                    <div class="slide-buttons"><a class="btn btn--primary" href="javascript:void(0)">more about us</a><a class="btn btn--white" href="javascript:void(0)">our services</a></div>
+                                    <div class="slide-buttons"><a class="btn btn--primary" id="moreaboutus" href="">more about us</a>
+        <a class="btn btn--white btn-services" href="">our services</a>
+        <!-- <a class="btn btn--white btn-track" href="/trackingPage" style="display: none;">track</a> -->
+        <a class="btn btn--primary btn-track" href="/trackingPage" style="display: none;">Track</a></div>
                                 </div>
                                 <!-- End .slide-content -->
                             </div>
@@ -912,7 +931,7 @@
 </a>
 
 <style>
-    
+
 
 
 .whatsapp-button {

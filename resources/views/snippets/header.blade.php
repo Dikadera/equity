@@ -53,6 +53,7 @@
                     </ul>
                 </li>
                 <li class="nav-item"><a href="/contact"><span>contact</span></a></li>
+                <li class="nav-item"><a href="/trackingPage" class="btn btn--primary text-white"><span>TRACK</span></a></li>
             </ul>
             <div class="module-container">
                 <!--  Start Module Search  -->

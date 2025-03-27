@@ -73,7 +73,7 @@
 
                                 <li><span class="fas fa-map-marker-alt"></span><a href="javascript:void(0)">New York 11226 United States.</a></li>
                                 <li><span class="fas fa-envelope"></span><a href="mailto::info@equita.com">info@equita.com</a></li>
-                                <li class="fas fa-phone-alt"><a href="http://wa.me/+6014544724"><i class="fas fa-phone-alt"></i> +60(14)54-47-24</a></li>
+                                <li class="fas fa-phone-alt"><a href="http://wa.me/+6014544724"><i class="fas fa-phone-alt"></i> +610(14)84-41-09</a></li>
                             </ul>
                         </div>
                     </div>
